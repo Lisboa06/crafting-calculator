@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Crafting Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚒️ Crafting Calculator</h1>
+
+    <label for="item">Selecione um item:</label><br>
+    <select id="item">
+      <option value="strange_shield">Strange Shield</option>
+    </select><br>
+
+    <label for="quantidade">Quantidade:</label><br>
+    <input type="number" id="quantidade" value="1" min="1"><br><br>
+
+    <button onclick="calcular()">Calcular Materiais</button>
+
+    <div class="results" id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
